@@ -8,30 +8,47 @@ header {
   position: absolute;
   width: 100%;
   padding-top: 1rem;
+  position: fixed;
 }
 
-figure img {
-  width: 100vmax;
-  height: 100%;
-  position: relative;
+div.indexPage {
+  background: url("img/1.jpg") no-repeat center center;
+  background-size: cover;
+  /* position: relative; */
   z-index: -1;
+  padding: 300px;
 }
 
-figure {
-  margin: 0 0 0rem !important;
+div.indexPage2 {
+  background: url("img/2.jpg") no-repeat center center;
+  background-size: cover;
+  /* position: relative; */
+  z-index: -1;
+  padding: 300px;
 }
 
-div.container-fluid {
-  position: absolute;
-  top: 20%;
+div.indexPage3 {
+  background: url("img/3.jpg") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+  padding: 300px;
 }
 
-div.indexPage h1,
-h4 {
+div.indexPage4 {
+  background: url("img/4.jpg") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+  padding: 300px;
+}
+
+
+div.container-fluid h1, div.container-fluid h4 {
   color: white;
   width: 100%;
   text-align: center;
 }
+
+
 
 h1 {
   font-family: "Playfair Display", serif;
@@ -45,6 +62,11 @@ h4 {
 
 #contactImg {
   width: 100vmax;
+}
+
+div.contactImage {
+  background: url("img/header-img.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 div.contact {
@@ -149,6 +171,14 @@ table.contactDetails tbody tr td{
   position: relative;
 }
 
+#servicesHeader h1 {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  line-height: 1.14;
+  color: white;
+}
+
 article.services {
   background: #213133;
   padding-top: 80px;
@@ -218,6 +248,14 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+}
+
+#pricesHeader h1 {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  line-height: 1.14;
+  color: white;
 }
 
 article.prices {
