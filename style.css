@@ -1,0 +1,264 @@
+/* Index */
+
+header {
+  position: absolute;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+figure img {
+  width: 100vmax;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+figure {
+  margin: 0 0 0rem !important;
+}
+
+div.container-fluid {
+  position: absolute;
+  top: 20%;
+}
+
+div.indexPage h1,
+h4 {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Contact */
+
+#contactImg {
+  width: 100vmax;
+}
+
+div.contact {
+  background: #213133;
+}
+
+div.contactDetails {
+  padding: 5rem;
+}
+
+p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contactDetails h1,
+h4,
+p {
+  text-align: left;
+  color: white;
+}
+
+div.contactDetails h1 {
+  font-size: 70px;
+}
+
+div.contactDetails h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div.rectangle {
+  width: 60px;
+  height: 60px;
+  border: solid 2px #00b1c0;
+}
+
+div.rectangle img {
+  margin: 16px;
+}
+
+div.phone p {
+  font-size: 24px;
+  margin-bottom: 0px;
+  padding-left: 1rem;
+}
+
+table.contactDetails {
+  line-height: 0.2rem;
+}
+
+table.contactDetails tbody tr th {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+
+table.contactDetails tbody tr td{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.btn-primary {
+  background: #00b1c0 !important;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background: white !important;
+  color:#fd4948 !important;
+}
+
+.btn-danger {
+  background: #fd4948 !important;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  border: none !important;
+}
+
+.btn-danger:hover {
+  background: white !important;
+  color:#00b1c0 !important; 
+}
+
+
+/* Services */
+
+#servicesHeader {
+  background: url(img/services-header.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+article.services {
+  background: #213133;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+div.servicesDetails h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #00b1c0;
+  text-transform: uppercase;
+}
+
+div.servicesDetails h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+div.servicesDetails h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #00b1c0;
+  background:rgba(255, 255, 255, 0.1);
+}
+
+div.servicesDetails p{
+  font-size: 14px;
+}
+
+div.servicesDetails ul {
+  padding-left: 0px;
+}
+
+div.servicesDetails ul li {
+color: white;
+list-style-type: none;
+}
+
+div.servicesDetails ul li::before {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #00b1c0;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+
+footer {
+  height: 230px;
+  background:#334243;
+}
+
+
+/* Prices */
+
+#pricesHeader {
+  background: url(img/prices-header.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+article.prices {
+  background: #213133;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+div.pricesDetails h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #00b1c0;
+  text-transform: uppercase;
+}
+
+div.pricesDetails p{
+  font-size: 14px;
+}
+
+.tableFirst th:nth-of-type(even){
+  text-align: end !important;
+}
+
+.tableSecond th:nth-of-type(3){
+  text-align: end !important;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: transparent !important;
+}
+
+.table-striped thead tr th {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.table-striped tbody tr td{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.table td, .table th {
+  border-top: none !important;
+}
+
+
