@@ -11,6 +11,18 @@ header {
   position: fixed;
 }
 
+a.navButton {
+  transition: 1s;
+}
+
+a.navButton:hover {
+  border-top: 2px solid white !important;
+  border-bottom: 2px solid white !important;
+  background-color: transparent !important;
+  color: white !important;
+  border-radius: 0px;
+}
+
 div.indexPage {
   background: url("img/1.jpg") no-repeat center center;
   background-size: cover;
@@ -90,7 +102,7 @@ p {
 }
 
 div.contactDetails h1 {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 div.contactDetails h4{
@@ -174,7 +186,7 @@ table.contactDetails tbody tr td{
 #servicesHeader h1 {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   font-family: "Playfair Display", serif;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1.14;
   color: white;
 }
@@ -233,7 +245,6 @@ footer {
   background:#334243;
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
 }
 
 
@@ -253,7 +264,7 @@ footer {
 #pricesHeader h1 {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   font-family: "Playfair Display", serif;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1.14;
   color: white;
 }
@@ -279,7 +290,15 @@ div.pricesDetails p{
   text-align: end !important;
 }
 
+.tableFirst td:nth-of-type(even){
+  text-align: end;
+}
+
 .tableSecond th:nth-of-type(3){
+  text-align: end !important;
+}
+
+.tableSecond td:nth-of-type(3){
   text-align: end !important;
 }
 
@@ -306,6 +325,21 @@ div.pricesDetails p{
 
 .table td, .table th {
   border-top: none !important;
+}
+
+.ycoLogo {
+  background-image: url("img/yco-emblema.svg");
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s ease;
+}
+
+.ycoLogo:hover {
+  background-image: url("img/color.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
