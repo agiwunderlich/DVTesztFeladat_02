@@ -19,6 +19,13 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display:400&display=swap"
       rel="stylesheet"
     />
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -46,51 +53,71 @@
             </ul>
           </div>
         </div>
+
+        <div class="row justify-content-end scrollSpyLine" >
+          <div class="col-2" id="scrollSpyLine">
+            <div class="point" id="point1"></div>
+            <div class="point" id="point2"></div>
+            <div class="point" id="point3"></div>
+            <div class="point" id="point4"></div>
+          </div>
+        </div>
       </div>
     </header>
 
-    <section>
+    <!--   <section>
       <div class="container-fluid indexPage">
-        <div class="row justify-content-center">
-          <div class="col text-center">
-            <h1>A kényelem érintése</h1>
-            <h4>a wellness szerelmeseinek</h4>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section>
-      <div class="container-fluid indexPage2">
-        <div class="row justify-content-center">
-          <div class="col text-center">
-            <h1>Simogató kényeztetés</h1>
-            <h4>testnek és léleknek</h4>
-          </div>
-        </div>
       </div>
     </section>
+ -->
 
-    <section>
-      <div class="container-fluid indexPage3">
-        <div class="row justify-content-center">
-          <div class="col text-center">
-            <h1>Pihentető luxus</h1>
-            <h4>egy masszázsmedencében</h4>
+    <div data-spy="scroll" data-target="#scrollSpyLine" data-offset="0" class="scrollspy-example">
+      <section>
+        <div class="container-fluid indexPage">
+          <div class="row justify-content-center">
+            <div class="col text-center">
+              <h1>A kényelem érintése</h1>
+              <h4>a wellness szerelmeseinek</h4>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section>
-      <div class="container-fluid indexPage4">
-        <div class="row justify-content-center">
-          <div class="col text-center">
-            <h1>Szauna élmények</h1>
-            <h4>extrákkal</h4>
+      <section>
+        <div class="container-fluid indexPage2">
+          <div class="row justify-content-center">
+            <div class="col text-center">
+              <h1>Simogató kényeztetés</h1>
+              <h4>testnek és léleknek</h4>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section>
+        <div class="container-fluid indexPage3">
+          <div class="row justify-content-center">
+            <div class="col text-center">
+              <h1>Pihentető luxus</h1>
+              <h4>egy masszázsmedencében</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container-fluid indexPage4">
+          <div class="row justify-content-center">
+            <div class="col text-center">
+              <h1>Szauna élmények</h1>
+              <h4>extrákkal</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="scripts.js"></script>
   </body>
 </html>

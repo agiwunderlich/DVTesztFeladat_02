@@ -2,6 +2,11 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+
 /* Index */
 
 header {
@@ -24,17 +29,55 @@ a.navButton:hover {
 }
 
 div.indexPage {
-  background: url("img/1.jpg") no-repeat center center;
+  background: url("img/1.jpg") no-repeat center;
   background-size: cover;
-  /* position: relative; */
   z-index: -1;
   padding: 300px;
+  min-height: 100%;
+  width: 100%;
+  position: relative;
 }
+
+div.scrollSpyLine {
+  position: fixed;
+  top: 50%;
+  left: 85%;
+  transform: translateY(-50%);
+}
+
+div.point {
+  width: 8px;
+  height: 8px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+div.point.active {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  right: 5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+
+
+/* div.indexPage.scrolled1 {
+  background: url("img/2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+div.indexPage.scrolled2 {
+  background: url("img/3.jpg") no-repeat center center;
+  background-size: cover;
+} */
 
 div.indexPage2 {
   background: url("img/2.jpg") no-repeat center center;
   background-size: cover;
-  /* position: relative; */
   z-index: -1;
   padding: 300px;
 }
@@ -53,14 +96,12 @@ div.indexPage4 {
   padding: 300px;
 }
 
-
-div.container-fluid h1, div.container-fluid h4 {
+div.container-fluid h1,
+div.container-fluid h4 {
   color: white;
   width: 100%;
   text-align: center;
 }
-
-
 
 h1 {
   font-family: "Playfair Display", serif;
@@ -105,7 +146,7 @@ div.contactDetails h1 {
   font-size: 50px;
 }
 
-div.contactDetails h4{
+div.contactDetails h4 {
   font-size: 18px;
   font-weight: bold;
 }
@@ -137,7 +178,7 @@ table.contactDetails tbody tr th {
   font-weight: 600;
 }
 
-table.contactDetails tbody tr td{
+table.contactDetails tbody tr td {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: white;
@@ -154,7 +195,7 @@ table.contactDetails tbody tr td{
 
 .btn-primary:hover {
   background: white !important;
-  color:#fd4948 !important;
+  color: #fd4948 !important;
 }
 
 .btn-danger {
@@ -168,9 +209,8 @@ table.contactDetails tbody tr td{
 
 .btn-danger:hover {
   background: white !important;
-  color:#00b1c0 !important; 
+  color: #00b1c0 !important;
 }
-
 
 /* Services */
 
@@ -214,10 +254,10 @@ div.servicesDetails h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #00b1c0;
-  background:rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
-div.servicesDetails p{
+div.servicesDetails p {
   font-size: 14px;
 }
 
@@ -226,8 +266,8 @@ div.servicesDetails ul {
 }
 
 div.servicesDetails ul li {
-color: white;
-list-style-type: none;
+  color: white;
+  list-style-type: none;
 }
 
 div.servicesDetails ul li::before {
@@ -242,13 +282,10 @@ div.servicesDetails ul li::before {
 
 footer {
   height: 230px;
-  background:#334243;
+  background: #334243;
   color: white;
   font-family: "Montserrat", sans-serif;
 }
-
-
-
 
 /* Prices */
 
@@ -282,23 +319,23 @@ div.pricesDetails h3 {
   text-transform: uppercase;
 }
 
-div.pricesDetails p{
+div.pricesDetails p {
   font-size: 14px;
 }
 
-.tableFirst th:nth-of-type(even){
+.tableFirst th:nth-of-type(even) {
   text-align: end !important;
 }
 
-.tableFirst td:nth-of-type(even){
+.tableFirst td:nth-of-type(even) {
   text-align: end;
 }
 
-.tableSecond th:nth-of-type(3){
+.tableSecond th:nth-of-type(3) {
   text-align: end !important;
 }
 
-.tableSecond td:nth-of-type(3){
+.tableSecond td:nth-of-type(3) {
   text-align: end !important;
 }
 
@@ -317,13 +354,14 @@ div.pricesDetails p{
   font-size: 16px;
 }
 
-.table-striped tbody tr td{
+.table-striped tbody tr td {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 16px;
 }
 
-.table td, .table th {
+.table td,
+.table th {
   border-top: none !important;
 }
 
@@ -341,5 +379,3 @@ div.pricesDetails p{
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
