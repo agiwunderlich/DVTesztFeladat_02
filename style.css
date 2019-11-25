@@ -38,42 +38,6 @@ div.indexPage {
   position: relative;
 }
 
-div.scrollSpyLine {
-  position: fixed;
-  top: 50%;
-  left: 85%;
-  transform: translateY(-50%);
-}
-
-div.point {
-  width: 8px;
-  height: 8px;
-  margin-bottom: 20px;
-  border-radius: 50%;
-  background-color: white;
-}
-
-div.point.active {
-  width: 20px;
-  height: 20px;
-  margin-bottom: 20px;
-  position: relative;
-  right: 5px;
-  border-radius: 50%;
-  background-color: white;
-}
-
-
-
-/* div.indexPage.scrolled1 {
-  background: url("img/2.jpg") no-repeat center center;
-  background-size: cover;
-}
-
-div.indexPage.scrolled2 {
-  background: url("img/3.jpg") no-repeat center center;
-  background-size: cover;
-} */
 
 div.indexPage2 {
   background: url("img/2.jpg") no-repeat center center;
